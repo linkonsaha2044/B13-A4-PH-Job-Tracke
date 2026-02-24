@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Tracker</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Job Application Tracker</h1>
+            <div class="stats-container">
+                <div class="stat-card">
+                    <p>Total</p>
+                    <h2 id="total-count">8</h2>
+                </div>
+                <div class="stat-card interview-stat">
+                    <p>Interview</p>
+                    <h2 id="interview-count">0</h2>
+                </div>
+                <div class="stat-card rejected-stat">
+                    <p>Rejected</p>
+                    <h2 id="rejected-count">0</h2>
+                </div>
+            </div>
+        </header>
+
+        <section class="available-jobs">
+            <div class="section-header">
+                <h2>Available Jobs</h2>
+                <span id="job-status-count">8 jobs</span>
+            </div>
+
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="all">All</button>
+                <button class="tab-btn" data-tab="interview">Interview</button>
+                <button class="tab-btn" data-tab="rejected">Rejected</button>
+            </div>
+
+            <div id="jobs-list" class="jobs-grid">
+               
+            </div>
+
+          
+</body>
+
+</html>
